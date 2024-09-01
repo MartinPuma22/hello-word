@@ -12,6 +12,7 @@ public class ApplicationCard {
         for (int i = 0; i < 21; i++) {
             creditCard.progress();
         }
+        //Agrego comentario
 
         creditCard.depositAmount(300.00);
         System.out.println(creditCard);
