@@ -1,11 +1,11 @@
-package com.java.buddies.Poo.Dates.Service;
+package com.java.buddies.poo.dates.service;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
-public class Format {
+public class FormatterService {
 
     private static final String DATE_PATTERN = "yyyyMMdd";
     private static final String SEPARATOR_ITEMS = ";";

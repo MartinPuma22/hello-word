@@ -9,14 +9,14 @@ public class ApplicationCard {
         creditCard.setBalance(100);
         creditCard.setNameHolder("James");
 
-        for (int i = 0; i < 21; i++) {
+        for (int i = 0; i < 22; i++) {
             creditCard.progress();
         }
-        //Agrego comentario
 
         creditCard.depositAmount(300.00);
         System.out.println(creditCard);
         creditCard.depositAmount(-50.00);
+
     }
 
 }
